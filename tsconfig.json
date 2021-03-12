@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ESNext",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "outDir": "./lib",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "incremental": true,
+        "strictNullChecks": true,
+        "lib": [
+            "es2016",
+            "es5"
+        ],
+        "types": ["node"],
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": ["node_modules"]
+}
